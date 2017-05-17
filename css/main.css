@@ -60,12 +60,30 @@ textarea {
 
 header {
   background-color: rgb(167, 200, 34);
+  width: auto;
+  height: 60px;
 
 }
 
 
  ul {
    width: 100%;
+ }
+
+
+
+ #presentation {
+   background-color: rgb(42, 199, 189);
+ }
+
+ .jumbotron {
+   background-color: transparent;
+   color: white;
+   margin-top: 10%;
+ }
+
+ .display-3 {
+   text-align: center;
  }
 
 
@@ -83,15 +101,23 @@ header {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media (min-width: 768) {
 
 }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
 
+
+@media (min-width: 992px) {
+  header {
+    width: auto;
+    height: 80px;
+  }
+
+  #Carousel {
+
+   margin-top :120px;
+   margin-left: 80px;
+  }
 }
 
 /* ==========================================================================
