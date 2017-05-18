@@ -58,6 +58,10 @@ textarea {
 
 * {border: 1px solid black;}
 
+body {
+  font-family: 'Reem Kufi', sans-serif;
+}
+
 header {
   background-color: rgb(167, 200, 34);
   width: auto;
@@ -79,13 +83,13 @@ header {
  .jumbotron {
    background-color: transparent;
    color: white;
-   margin-top: 10%;
+
  }
 
  .display-3 {
-   text-align: center;
- }
+   font-family: 'Allerta Stencil', sans-serif;
 
+ }
 
 
 
@@ -101,7 +105,19 @@ header {
    Media Queries
    ========================================================================== */
 
-@media (min-width: 768) {
+@media (min-width: 768px) {
+
+.jumbotron{
+  margin-top: 20%;}
+
+.display-3 {
+  font-size: 40px;
+
+}
+
+#carouselExampleControls {
+  margin-top: 120px;
+}
 
 }
 
@@ -113,11 +129,34 @@ header {
     height: 80px;
   }
 
-  #Carousel {
+  .display-3 {
+    font-size: 80px;
 
-   margin-top :120px;
-   margin-left: 80px;
   }
+
+  #carouselExampleControls{
+
+   margin-top :150px;
+
+  }
+
+#objectifs {
+width: 200px;
+}
+
+.card {
+  margin: 0 !important;
+}
+#carousel {
+  padding: 0 !important;
+
+
+}
+
+
+
+
+
 }
 
 /* ==========================================================================
