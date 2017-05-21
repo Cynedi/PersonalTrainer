@@ -56,23 +56,29 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-* {border: 1px solid black;}
+/********general**********************
+*********************************************/
 
 body {
   font-family: 'Reem Kufi', sans-serif;
+  margin-right: 10px;
 }
 
 header {
   background-color: rgb(167, 200, 34);
-  width: auto;
   height: 60px;
-
+  padding: 0 !important;
 }
-
 
  ul {
    width: 100%;
  }
+
+ main {
+   background-color: rgb(67, 251, 223);
+
+ }
+
 
 
 
@@ -80,9 +86,15 @@ header {
    background-color: rgb(42, 199, 189);
  }
 
+
+ .card {
+   padding: 0 !important;
+ }
+
  .jumbotron {
    background-color: transparent;
    color: white;
+
 
  }
 
@@ -92,23 +104,31 @@ header {
  }
 
 #tarif {
-  margin-top: 150px;
+  margin-top: 50px;
+  background-color: rgb(246, 183, 151);
 }
- #contact {
-   margin-top: 150px;
+
+#tableau h3 {
+  margin-top: 50px;
+  text-align: center;
+color: white;
+text-decoration: underline;}
+
+#contact {
+  margin-top: 50px;
+   background-color: rgb(227, 87, 133);
  }
 
 
-
-
-
-
-
+ /******************Mobile****************
+ ****************************************/
+.nav-item {background-color:rgb(167, 200, 34) ;}
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-
+/************Tablette****************
+*****************************************/
 @media (min-width: 768px) {
 
 .jumbotron{
@@ -116,7 +136,6 @@ header {
 
 .display-3 {
   font-size: 40px;
-
 }
 
 #carouselExampleControls {
@@ -125,24 +144,35 @@ header {
 
 }
 
+/**************Desktop**************
+***********************************/
 
 
 @media (min-width: 992px) {
-  header {
-    width: auto;
-    height: 80px;
-  }
+header {
+width: auto;
+height: 80px;
+}
 
-  .display-3 {
-    font-size: 80px;
+.display-3 {
+font-size: 80px;
+}
 
-  }
+#carouselExampleControls{
+  margin-top: 0;
+  margin-bottom: 50px;
 
-  #carouselExampleControls{
+}
 
-   margin-top :150px;
+.jumbotron {
+  margin-top: 0;
+}
 
-  }
+#container1 a {
+  width: 30%;
+  margin-left: 33%;
+}
+
 
 #objectifs {
 width: 200px;
@@ -157,13 +187,28 @@ width: 200px;
 
 }
 
-
 path {
   fill: #334;
 }
 path:hover{
   fill:
 }
+
+.nav-item {
+background-color:rgb(167, 200, 34)
+ }
+
+#navigation a {
+  color: white;
+}
+
+#navigation a:hover {
+  font-weight: bold;
+}
+
+
+
+
 
 
 }
