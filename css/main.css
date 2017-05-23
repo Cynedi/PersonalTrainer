@@ -61,7 +61,7 @@ textarea {
 
 body {
   font-family: 'Reem Kufi', sans-serif;
-  margin-right: 10px;
+
 }
 
 header {
@@ -79,13 +79,9 @@ header {
 
  }
 
-
-
-
  #presentation {
    background-color: rgb(42, 199, 189);
  }
-
 
  .card {
    padding: 0 !important;
@@ -94,13 +90,20 @@ header {
  .jumbotron {
    background-color: transparent;
    color: white;
-
-
  }
 
  .display-3 {
    font-family: 'Allerta Stencil', sans-serif;
 
+ }
+
+ .card-img-top {
+   margin-left: 50px;
+   margin-top: 30px;
+ }
+
+h2 {
+   margin-left: 20px;
  }
 
 #tarif {
@@ -111,18 +114,66 @@ header {
 #tableau h3 {
   margin-top: 50px;
   text-align: center;
-color: white;
-text-decoration: underline;}
+  color: white;
+  text-decoration: underline;}
 
 #contact {
   margin-top: 50px;
-   background-color: rgb(227, 87, 133);
+  background-color: rgb(227, 87, 133);
+ }
+
+ .form-group {
+   margin: 0 10px 0px 10px;
+ }
+
+.btn {
+   margin: 10px;
+ }
+
+ h3 {
+   text-decoration: underline;
+   color: white;
+   text-align: center;
+ }
+
+ #tarif h3 {
+   padding-bottom: 70px;
+ }
+
+ #tableau h3 {
+   padding-top: 30px;
+ }
+
+ #contact h3 {
+   padding-bottom: 60px;
+   color: white;
+ }
+
+ #agenda h3 {
+   padding-top: 50px;
+ }
+
+ #adress h3 {
+   padding-top: 30px;
+ }
+
+ address {
+   text-align: center;
+   color: white;
+ }
+
+ iframe {
+   margin-bottom: 20px;
  }
 
 
  /******************Mobile****************
  ****************************************/
 .nav-item {background-color:rgb(167, 200, 34) ;}
+
+
+
+
 
 /* ==========================================================================
    Media Queries
@@ -140,6 +191,50 @@ text-decoration: underline;}
 
 #carouselExampleControls {
   margin-top: 120px;
+}
+
+.card-img-top {
+  margin-right: 0px !important;
+  margin-left: 20px;
+}
+
+.card-deck {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#suivi {
+  margin-top: 10px;
+}
+
+#contact h3 {
+  text-align: left;
+  margin-left: 10px;
+}
+
+#agenda iframe {
+  width: 220px;
+  height: 290px;
+  padding-right: 10px;
+
+}
+
+#agenda h3 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#map iframe {
+  padding-right: 10px;
+}
+
+#adress h3 {
+  text-align: center;
 }
 
 }
@@ -206,9 +301,15 @@ background-color:rgb(167, 200, 34)
   font-weight: bold;
 }
 
+#agenda iframe {
+  width: 400px;
+  height: 400px;
+}
 
-
-
+#agenda h3 {
+  margin-top: -100px;
+  margin-bottom: 40px;
+}
 
 
 }
